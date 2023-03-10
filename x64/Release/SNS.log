@@ -1,0 +1,7 @@
+﻿  SNS.c
+D:\PROJECT\SNS\SNS.c(59,13): warning C4013: '_mkdir'이(가) 정의되지 않았습니다. extern은 int형을 반환하는 것으로 간주합니다.
+  코드를 생성하고 있습니다.
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+  All 10 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  SNS.vcxproj -> D:\PROJECT\SNS\x64\Release\SNS.exe
