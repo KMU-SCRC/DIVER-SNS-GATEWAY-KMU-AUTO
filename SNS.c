@@ -90,18 +90,18 @@ int main(void)
     headerlist = curl_slist_append(headerlist, "Content-Type: application/json");
 
     char name[100] = "test1";
-    char date[100] = "2023";
+    char date[100] = "2023-01-03T00:00:00.0000";
     char acceleration[30] = "1.00,-0.19,0.14";
     char gaussMagnetic[30] = "4.91,-14.87,25.15";
     char angularRate[30] = "0.18,0.49,0.79";
     char underwaterMicrophone[10] = "0.1";
     char gesture[10] = "0.1";
-    char proximity[10] = "0.1";
+    char proximity[10] = "250";
     char dryAmbientLight[10] = "0.1";
     char dryAmbientRGB[30] = "R.20,G.20,B.19";
-    char dryBarometricPressure[10] = "0.1";
-    char dryTemperature[10] = "0.1";
-    char dryHumidity[10] = "0.1";
+    char dryBarometricPressure[10] = "101.01";
+    char dryTemperature[10] = "25.21";
+    char dryHumidity[10] = "28.06";
     char underwaterPressure[10] = "0.1";
     char underwaterTemperature[10] = "0.1";
     char underwaterDepth[10] = "0.1";
@@ -110,7 +110,7 @@ int main(void)
     char underwaterPictureHigh[10] = "0.1";
     char underwaterVideoWithoutMic[10] = "0.1";
     char underwaterVideoWithMic[10] = "0.1";
-    char gnss[100] = "GNGGA,053008.095,,,,,0,0,,,M,,M,,*54";
+    char gnss[100] = "GNGGA,053008.095,37.8847493,N,127.1720248,E,0,0,,,M,,M,,*54";
 
     char postthis[1000] = "{\"name\": \"test1\", \"date\": \"2023\", \"acceleration\": \"0.1\", \"gaussMagnetic\": \"0.1\", \"angularRate\": \"0.1\", \"underwaterMicrophone\": \"0.1\", \"gesture\": \"0.1\", \"proximity\": \"0.1\", \"dryAmbientLight\": \"0.1\", \"dryAmbientRGB\": \"0.1\", \"dryBarometricPressure\": \"0.1\", \"dryTemperature\": \"0.1\", \"dryHumidity\": \"0.1\", \"underwaterPressure\": \"0.1\", \"underwaterTemperature\": \"0.1\", \"underwaterDepth\": \"0.1\", \"seaLevelAltitude\": \"0.1\", \"underwaterPictureLow\": \"0.1\", \"underwaterPictureHigh\": \"0.1\", \"underwaterVideoWithoutMic\": \"0.1\", \"underwaterVideoWithMic\": \"0.1\", \"gnss\": \"0.1\"}";
     char input[100];
